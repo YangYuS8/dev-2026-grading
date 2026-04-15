@@ -1,5 +1,4 @@
 name: 提交考核仓库
-message: 用这个模板提交你的考核仓库，供评分 agent 自动评分。
 title: "[submission] <你的 GitHub 用户名> - <题目仓库名>"
 labels:
   - submission
