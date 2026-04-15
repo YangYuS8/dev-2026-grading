@@ -1,8 +1,19 @@
 name: 提交考核仓库
+description: 用这个模板提交你的考核仓库，供评分系统处理。
 title: "[submission] <你的 GitHub 用户名> - <题目仓库名>"
 labels:
   - submission
 body:
+  - type: markdown
+    attributes:
+      value: |
+        请按要求填写下面的信息。
+
+        注意：
+        - 不要修改题目仓库名
+        - 仓库地址请填写你自己的提交仓库完整链接
+        - 如果有未完成部分，请在备注中说明
+
   - type: input
     id: github_username
     attributes:
@@ -41,3 +52,5 @@ body:
       label: 备注
       description: 如果有没做完的部分，可以提前说明
       placeholder: 例如：README 还没完善 / 第三个功能还没完成
+    validations:
+      required: false
