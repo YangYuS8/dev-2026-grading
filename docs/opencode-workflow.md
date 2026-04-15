@@ -4,36 +4,65 @@
 
 ## 关键点
 
-OpenCode 项目内 skills 通常应放在：
+本仓库现在同时提供两类东西：
+
+### 1. 项目内 skills
+位置：
 
 ```text
 .opencode/skills/
 ```
 
-所以本仓库的评分 skills 已经放到：
+作用：
+- 提供评分规则
+- 提供总入口评分流程
+
+### 2. 项目内 commands
+位置：
 
 ```text
-.opencode/skills/
+.opencode/commands/
 ```
 
-如果你在仓库根目录直接启动 `opencode`，它更容易按项目内 skill 的方式识别这些技能。
+作用：
+- 提供 `/grade` 这样的命令入口
+
+---
+
+## `/grade` 是怎么来的
+
+`/grade` 不是 skill 自动生成的，而是通过项目内 command 提供的。
+
+本仓库已经新增：
+
+- `.opencode/commands/grade.md`
+
+所以你在仓库根目录启动 `opencode` 后，理论上就应该能使用：
+
+```text
+/grade <issue编号>
+```
+
+例如：
+
+```text
+/grade 12
+```
+
+---
 
 ## 推荐流程
 
 1. clone 本仓库
 2. 进入仓库根目录
 3. 启动 `opencode`
-4. OpenCode 读取 `.opencode/skills/`
+4. OpenCode 读取：
+   - `.opencode/skills/`
+   - `.opencode/commands/`
 5. 执行：
 
 ```text
 /grade <issue编号>
-```
-
-或者：
-
-```text
-grade issue <issue编号>
 ```
 
 6. agent 自动完成：
@@ -47,9 +76,13 @@ grade issue <issue编号>
    - `node scripts/build_leaderboard.js`
    - 关闭 issue
 
-## 主入口
+## 主入口 skill
 
 - `.opencode/skills/grade-submission`
+
+## `/grade` 命令入口
+
+- `.opencode/commands/grade.md`
 
 ## 单题评分 skills
 
