@@ -1,0 +1,13 @@
+{
+  "name": "dev-2026-grading-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "docs:build": "vitepress build docs",
+    "build": "npm run build:data && npm run docs:build"
+  },
+  "devDependencies": {
+    "vitepress": "^1.2.3"
+  }
+}
