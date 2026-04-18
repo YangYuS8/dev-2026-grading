@@ -6,8 +6,7 @@ const csvPath = path.join(repoRoot, 'results', 'leaderboard.csv');
 const outPath = path.join(process.cwd(), 'docs', 'public', 'leaderboard.json');
 
 const parseCsv = (content) => {
-  const lines = content.trim().split(/?
-/);
+  const lines = content.trim().split(/\r?\n/);
   const headers = lines.shift().split(',');
   return lines.map((line) => {
     const values = [];

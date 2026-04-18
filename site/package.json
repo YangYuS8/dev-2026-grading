@@ -5,7 +5,7 @@
   "scripts": {
     "build:data": "node scripts/build-data.mjs",
     "docs:build": "vitepress build docs",
-    "build": "npm run build:data && npm run docs:build"
+    "build": "pnpm run build:data && pnpm run docs:build"
   },
   "devDependencies": {
     "vitepress": "^1.2.3"
