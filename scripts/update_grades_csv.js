@@ -23,20 +23,17 @@ const headers = [
 ];
 
 if (!fs.existsSync(csvPath)) {
-  fs.writeFileSync(csvPath, headers.join(',') + '
-', 'utf8');
+  fs.writeFileSync(csvPath, headers.join(',') + '\n', 'utf8');
 }
 
 const escapeCsv = (value) => {
   const s = String(value ?? '');
-  if (s.includes(',') || s.includes('"') || s.includes('
-')) {
+  if (s.includes(',') || s.includes('"') || s.includes('\n')) {
     return '"' + s.replace(/"/g, '""') + '"';
   }
   return s;
 };
 
-const line = headers.map((key) => escapeCsv(row[key] ?? '')).join(',') + '
-';
+const line = headers.map((key) => escapeCsv(row[key] ?? '')).join(',') + '\n';
 fs.appendFileSync(csvPath, line, 'utf8');
 console.log('CSV updated:', csvPath);

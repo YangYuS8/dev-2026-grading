@@ -1,1 +1,3 @@
 student_username,task_repo,submission_repo,score,graded_at,issue_number,status,notes
+ttc0648,dev-2026-01,https://github.com/ttc0648/dev-2026-01.git,96,2026-04-18T15:43:36Z,2,graded,完整提交；结构、布局、响应式完成度高；建议清理模板文件并精简不必要 ARIA role。
+ding070125,dev-2026-01,https://github.com/ding070125/dsj,73,2026-04-18T15:51:39Z,3,graded,提交完整但较基础；README 基本沿用模板且与实现不完全一致；响应式和 HTML 细节还有提升空间。
