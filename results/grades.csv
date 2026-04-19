@@ -4,3 +4,7 @@ ding070125,dev-2026-01,https://github.com/ding070125/dsj,73,2026-04-18T15:51:39Z
 Aelume,dev-2026-01,https://github.com/Aelume/dev-2026-01,96,2026-04-19T04:55:42Z,4,graded,提交完整且质量较高；响应式处理细致；少量无障碍状态和内联样式细节可继续优化。
 Aelume,dev-2026-02,https://github.com/Aelume/dev-2026-02,95,2026-04-19T04:58:09Z,5,graded,核心 API 交互流程完整；代码结构清晰，README 说明准确；数据更新方式和渲染细节仍可继续优化。
 ttc0648,dev-2026-02,https://github.com/ttc0648/dev-2026-02.git,93,2026-04-19T05:01:44Z,6,graded,核心 API 交互流程完整；筛选映射处理合理；消息区复用、README 截图路径和模板痕迹仍可优化。
+ttc0648,dev-2026-03,https://github.com/ttc0648/dev-2026-03.git,89,2026-04-19T13:55:35Z,8,graded,清洗流程完整且可运行；导出和统计结果齐全；README 仍有模板痕迹且文档与仓库内容存在少量不一致。
+ding070125,dev-2026-02,https://github.com/ding070125/dev-2026-02-dsj.git,86,2026-04-19T14:05:29Z,10,graded,核心 API 交互流程基本完整；代码结构清晰；README 仍保留较多模板内容，健壮性和展示细节还有提升空间。
+C1P583,dev-2026-04,https://github.com/C1P583/dev-2026-04,85,2026-04-19T14:08:50Z,11,graded,基础 CLI 流式对话功能完整；环境变量读取和 DeepSeek 调用正确；缺少 API Key 校验、异常处理和真正的多轮上下文。
+yunyuaniwwhm,dev-2026-01,https://github.com/yunyuaniwwhm/QM-01,0,2026-04-19T14:11:29Z,12,partial,仓库可访问，但 index.html 和 styles/main.css 为空，README 仍为题目模板，当前无法按作业内容正常评分。
