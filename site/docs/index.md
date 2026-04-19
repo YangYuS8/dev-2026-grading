@@ -2,22 +2,84 @@
 layout: home
 
 hero:
-  name: dev-2026 排行榜
-  text: 自动根据评分仓库生成的考核结果页面
-  tagline: 从 results/leaderboard.csv 构建，适合公开查看当前排名与分数分布
+  name: dev-2026
+  text: 开发方向考核
+  tagline: 提交说明、题目入口与排行榜
   actions:
     - theme: brand
       text: 查看排行榜
       link: /leaderboard
     - theme: alt
-      text: 查看评分仓库
+      text: 打开评分仓库
       link: https://github.com/YangYuS8/dev-2026-grading
 
 features:
-  - title: 自动更新
-    details: 当评分仓库中的 leaderboard.csv 更新后，GitHub Actions 会自动重新构建并部署页面。
-  - title: 结构简单
-    details: 使用 VitePress 作为静态站点生成器，只展示必要信息，方便维护。
-  - title: 适合公开展示
-    details: 结果来自仓库中的 CSV 文件，便于后续继续接入更多题目和排行榜统计。
+  - title: 共 5 道题
+    details: 每题 100 分，总分 500 分，所有题目都提供了题目说明与评分细则。
+  - title: 统一通过 Issue 提交
+    details: 所有题目都必须通过 dev-2026-grading 仓库的 Issue 模板进行提交，不接受其他提交方式。
+  - title: 建议先做基础题
+    details: 推荐优先尝试第 1 题和第 3 题，先熟悉做题与提交流程，再逐步完成全部题目。
 ---
+
+## 考核说明
+
+本次开发方向考核共包含 **5 道题**，每题 **100 分**，总分 **500 分**。
+
+其中：
+
+- **第 1-2 题** 主要考察前端基础能力，包括页面结构理解、基础交互实现与简单功能开发
+- **第 3-5 题** 主要考察 Python 应用能力，包括接口调用、数据处理及基础后端逻辑实现
+
+每道题都配有详细的评分细则，具体要求可查看各题对应仓库中的文档。
+
+## 题目链接
+
+- 第 1 题：<https://github.com/YangYuS8/dev-2026-01>
+- 第 2 题：<https://github.com/YangYuS8/dev-2026-02>
+- 第 3 题：<https://github.com/YangYuS8/dev-2026-03>
+- 第 4 题：<https://github.com/YangYuS8/dev-2026-04>
+- 第 5 题：<https://github.com/YangYuS8/dev-2026-05>
+
+## 建议开始顺序
+
+建议大家优先尝试：
+
+- **第 1 题**
+- **第 3 题**
+
+这两题属于开发方向中较为基础的内容，整体难度适中，适合先熟悉做题方式，也方便在正式推进前补充相关知识、掌握基本开发流程。
+
+## 提交方式
+
+所有题目都必须通过 **`dev-2026-grading` 仓库的 Issue 模板**提交。
+
+不接受：
+
+- 私聊提交
+- 随意发仓库链接
+- 其他非 Issue 形式的提交
+
+提交时请注意：
+
+1. 先完成你自己的题目仓库
+2. **不要修改题目仓库名**
+3. 回到评分仓库的 `Issues`
+4. 使用提供的模板创建提交 Issue
+5. 填写：
+   - 你的 GitHub 用户名
+   - 题目仓库名
+   - 你的提交仓库地址
+   - 备注（如果有未完成部分，可以提前说明）
+
+## 额外说明
+
+开发方向更强调：
+
+- 实际工程能力
+- 代码实现质量
+- 功能完整性
+- 逻辑清晰性
+- 良好的开发习惯
+
+建议大家循序渐进，逐步完成全部题目。
