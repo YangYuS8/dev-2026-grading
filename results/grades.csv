@@ -20,3 +20,9 @@ superwuabc,dev-2026-01,https://github.com/superwuabc/dev-2026-01,94,2026-04-20T0
 ttc0648,dev-2026-04,https://github.com/ttc0648/dev-2026-04.git,85,2026-04-21T02:08:20Z,17,graded,"Main CLI flow works and streams responses, but README formatting is broken and a duplicate nested project includes a real-looking DEEPSEEK_API_KEY in .env.example."
 ttc0648,dev-2026-05,https://github.com/ttc0648/dev-2026-05.git,65,2026-04-21T02:15:45Z,20,partial,"protocol.py implements most command handling, but server.py does not use it, so live TCP responses do not follow the required protocol; tests and report remain incomplete."
 Aelume,dev-2026-05,https://github.com/Aelume/dev-2026-05,95,2026-04-21T02:19:18Z,21,graded,"Strong TCP submission with correct protocol handling, passing live socket checks, and good documentation; minor deductions for missing TASK.md and leftover TODO comments."
+superwuabc,dev-2026-02,https://github.com/superwuabc/dev-2026-02,92,2026-04-22T05:49:31Z,22,graded,README 首段代码块未闭合，文档表述与实际功能有少量不一致
+ding070125,dev-2026-01,https://github.com/ding070125/dsj.git,85,2026-04-22T05:55:44Z,23,graded,页面结构与响应式完成较好，但仓库保留评分模板与辅助文档，README 也有较明显模板痕迹
+C1P583,dev-2026-01,https://github.com/C1P583/dev-2026-01,69,2026-04-22T05:57:55Z,24,partial,页面基础结构和样式已完成，但文件位于子目录，缺少明显响应式适配与交互状态样式
+ding070125,dev-2026-04,https://github.com/ding070125/dev-2026-04-dsj.git,95,2026-04-22T06:02:06Z,25,graded,终端流式对话主流程完整，API Key 与依赖管理正确；README 和异常处理还有少量可完善空间
+wy66876,dev-2026-01,https://github.com/wy66876/dev-2026-01,89,2026-04-22T06:23:12Z,26,graded,页面完成度较高，布局与响应式表现良好；但额外加入了较多 JavaScript，不完全符合纯 HTML+CSS 任务限定
+zhang-124,dev-2026-01,https://github.com/Zhang-124/dev-2026-01,86,2026-04-22T06:26:06Z,27,graded,页面完成度较高，但仓库保留评分模板与辅助文件，README 模板痕迹明显，且额外加入了少量 JavaScript
